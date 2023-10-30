@@ -1,5 +1,13 @@
 {
+    "tailwindCSS.includeLanguages": {
+        "javascript": "javascript",
+        "html": "HTML"
+    },
+   "editor.quickSuggestions": {
+       "strings": true
+    },
     "cSpell.words": [
-        "Chal"
+        "Dhriti",
+        "Pradipta"
     ]
 }
