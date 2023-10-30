@@ -8,11 +8,15 @@ function App() {
   const addValue = () => {
     //console.log("value added", Math.random());
     //counter = counter + 1
-    setCounter(counter + 1)
+    if (counter <= 19 && counter >= 0) {
+      setCounter(counter + 1)
+    }
   }
 
   const removeValue = () => {
-    setCounter(counter - 1)
+    if (counter <= 20 && counter >= 1) {
+      setCounter(counter - 1)
+    }
   }
 
   return (
